@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+.img {
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../public/image1.png');
+    background-position:top;
+    background-size: cover;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+  @font-face {
+    font-family: 'orbitron';
+    src: url('./static/Orbitron-Bold.ttf');
+  }
+  @font-face {
+    font-family: 'regular';
+    src: url('./static/Orbitron-Regular.ttf');
+  }
+  .hover-underline-animation {
+      display: inline-block;
+      position: relative;
+      color: #0087ca;
+    }
+    li {
+      text-decoration: none;
+      list-style-type: none;
+    }
+    .promo{
+      font-family: Helvetica, 'orbitron';
+    }
